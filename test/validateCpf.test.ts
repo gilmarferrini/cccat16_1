@@ -1,4 +1,4 @@
-import { validate } from "../src/validateCpf";
+import { validate } from "../src/application/validateCpf";
 
 const validsCpfs = ["97456321558", "71428793860", "87748248800"];
 test.each(validsCpfs)("Deve testar um cpf válido: %s", (cpf: string) => {
